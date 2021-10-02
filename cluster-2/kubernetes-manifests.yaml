@@ -297,7 +297,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: shop-2.kubesphere.kr
+  - host: *.kubesphere.kr
     http:
       paths:
       - backend:
